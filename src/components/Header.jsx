@@ -39,6 +39,11 @@ const Header = () => {
                 <a href="#" className='text-slate-600 hover:text-slate-700'>Sign In</a>
             </li>
             </Link>
+            <Link to="/prediction">
+            <li className='inline-block mx-2'>
+                <a href="#" className='text-slate-600 hover:text-slate-700'>Price Predict</a>
+            </li>
+            </Link>
         </ul>
         </div>
     </header>
